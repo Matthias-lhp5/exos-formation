@@ -1,0 +1,72 @@
+
+.imgProfil{
+    height: 200px;
+    width: 200px;
+    border-radius: 90%;
+}
+
+.projet{
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.projet_effets{
+	display:block;
+/* 	-webkit-box-shadow: 0 0 0px 3px #d4d4d4;
+	box-shadow: 0 0 0px 3px #d4d4d4; */
+	overflow:hidden;
+	position:relative;
+}
+.projet_effets img, .projet_masque{
+	transition: all 200ms ease;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+}
+
+.projet_effets img, .fullwidth{
+	width:100%;
+	height:auto;
+}
+.projet:hover .projet_effets img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.projet_masque p{
+	color:#fff;
+	text-align:center;
+}
+.projet_type{
+	font-family: 'raleway_black';
+	font-size:24px;
+	text-transform:uppercase;
+	line-height:30px;
+}
+
+.projet_masque{
+	width:100%;
+	height:100%;
+	background-color: rgba(55, 56, 139, 0.95);
+	opacity:0.0;
+	filter:alpha(opacity=0);	
+	
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:50;
+}
+
+.masque_couleur_vert{ background-color: rgba(24, 160, 150, 0.95); }
+
+.projet:hover .projet_masque{
+	opacity:1.0;
+	filter:alpha(opacity=100);	
+}
+
+.test{
+    width: 80vw;
+}

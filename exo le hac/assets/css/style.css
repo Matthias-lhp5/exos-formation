@@ -1,0 +1,264 @@
+body{
+    background-color: #E0E0E0;
+}
+.parisColor{
+    background-color: #091C3E;
+    color: white;
+}
+.lastColor{
+    background-color: #808080 ;
+
+}
+.lastLastOneColor{
+    background-color: #B3B3B3;
+}
+.secondThirdColor{
+    background-color: #E6E6E6;
+}
+.colorFont {
+    color:#091C3E;
+}
+.greendot{
+    color: green;
+}
+.reddot{
+    color:red  ;
+}
+.greydot{
+    color:#ABABAB;
+}
+.imgSize{
+    width: 10%;
+}
+.policeStart{
+    text-align: start;
+    font-weight: bold;
+    color:#091C3E ;
+}
+.policeParis{
+    color: white;
+    font-weight: bold;
+    text-align: start;
+}
+.bold{
+    font-weight: bold;
+}
+.colorGreen{
+    color: green;
+}
+.colorRed{
+    color:red;
+}
+.bgGrey:hover{
+    background-color: grey;
+}
+/* <table class="table table-hover d-sm-none">
+<thead class="text-center text-uppercase">
+    <tr>
+        <th scope="col">POSTION</th>
+        <th scope="col">CLUB</th>
+        <th scope="col">POINTS</th>
+        <th scope="col">JOUéS</th>
+        <th scope="col">DIFF</th>
+    </tr>
+</thead>
+<tbody>
+    <tr class="text-center parisColor">
+        <th scope="row">1 <i class="fa fa-circle greydot "></i> </th>
+        <td class="policeParis"><img src="assets\img\90.png" class="imgSize" alt="paricFc">PARIS FC
+        </td>
+        <td class="bold">16</td>
+        <td>7</td>
+       
+        <td>+7</td>
+
+    </tr>
+    <tr class="text-center secondThirdColor">
+        <th scope="row">2 <i class="fas fa-sort-up colorGreen fa-2x"></i>
+
+        </th>
+        <td class="policeStart"><img src="assets\img\28.png" class="imgSize" alt="niorsFC"> NIORTAIS
+            FC</td>
+        <td class="bold">14</td>
+        <td>7</td>
+       
+        <td>+4</td>
+       
+    </tr>
+    <tr class="text-center secondThirdColor">
+        <th scope="row">3 <i class="fa fa-circle greydot"></i></th>
+        <td class="policeStart"><img src="assets\img\160.png" class="imgSize" alt="">FC
+            SOCHAUX-MONTBéLIARD</td>
+        <td class="bold">13</td>
+        <td>7</td>
+       
+        <td>+4</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">4 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\33.png" class="imgSize" alt="">ESTAC TROYES
+        </td>
+        <td class="bold">13</td>
+        <td>7</td>
+       
+        <td>+4</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">5 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\40.png" class="imgSize" alt="">CLERMONT FOOT 63
+        </td>
+        <td class="bold">12</td>
+        <td>7</td>
+       
+        <td>+6</td>
+       
+    </tr>
+    <tr class="text-center">
+        <th scope="row">6 <i class="fas fa-caret-down colorRed"></i>
+
+        </th>
+        <td class="policeStart"><img src="assets\img\38.png" class="imgSize" alt="">GRENOBLE FOOT 38
+        </td>
+        <td class="bold">12</td>
+        <td>7</td>
+       
+        <td>+4</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">7 <i class="fas fa-caret-down colorRed"></i></th>
+        <td class="policeStart"><img src="assets\img\20.png" class="imgSize" alt="">STADE MALHERBE
+            CAEN</td>
+        <td class="bold">11</td>
+        <td>7</td>
+        
+        <td>+1</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">8 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\68.png" class="imgSize" alt="">VALENCIENNES FC
+        </td>
+        <td class="bold">10</td>
+        <td>1</td>
+        <td>+1</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">9 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\24.png" class="imgSize" alt="">EN AVANT
+            GUINGAMP</td>
+        <td class="bold">10</i></td>
+        <td>7</td>
+       
+        <td>0</td>
+       
+    </tr>
+    <tr class="text-center">
+        <th scope="row">10 <i class="fas fa-caret-down colorRed"></i></th>
+        <td class="policeStart"><img src="assets\img\48.png" class="imgSize" alt="">USL DUNKERQUE
+        </td>
+        <td class="bold">10</td>
+        <td>7</td>
+       
+        <td>0</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">11 <i class="fa fa-circle greydot"></i></th>
+        <td class="policeStart"><img src="assets\img\5.png" class="imgSize" alt="">HAVRE AC (BOJEU
+            BTW)</td>
+        <td class="bold">10</td>
+        <td>10</td>
+       
+        <td>+10</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">12 <i class="fas fa-sort-up colorGreen fa-2x"></th>
+        <td class="policeStart"><img src="assets\img\16.png" class="imgSize" alt="">TOULOUSE FC</td>
+        <td class="bold">9</td>
+        <td>7</td>
+       
+        <td>0</td>
+        
+    </tr>
+    <tr class="text-center">
+        <th scope="row">13 <i class="fas fa-caret-down colorRed"></i></th>
+        <td class="policeStart"><img src="assets\img\2.png" class="imgSize" alt="">AJ AUXERRE</td>
+        <td class="bold">9</td>
+        <td>7</td>
+      
+        <td>-1</td>
+       
+    </tr>
+    <tr class="text-center">
+        <th scope="row">14 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\11.png" class="imgSize" alt="">AS NANCY
+            LORRAINE</td>
+        <td class="bold">8</td>
+        <td>7</td>
+       
+        <td>0</td>
+       
+    </tr>
+    <tr class="text-center">
+        <th scope="row">15 <i class="fas fa-caret-down colorRed"></i></th>
+        <td class="policeStart"><img src="assets\img\22.png" class="imgSize" alt="">CHATEAUROUX</td>
+        <td class="bold">8</td>
+        <td>7</td>
+       
+        <td>0</td>
+       
+    </tr>
+    <tr class="text-center">
+        <th scope="row">16 <i class="fas fa-sort-up colorGreen"></i></th>
+        <td class="policeStart"><img src="assets\img\18.png" class="imgSize" alt="">AMIENS SC</td>
+        <td class="bold">8</td>
+        <td>7</td>
+       
+        <td>-1</td>
+       
+    <tr class="text-center">
+        <th scope="row">17 <i class="fas fa-caret-down colorRed"></i></th>
+        <td class="policeStart"><img src="assets\img\64.png" class="imgSize" alt="">RODEZ AVEYRON
+            FOOTBAL</td>
+        <td class="bold">8</td>
+        <td>7</td>
+        
+        <td>-5</td>
+        
+    </tr>
+    <tr class="text-center lastLastOneColor">
+        <th scope="row">18 <i class="fa fa-circle greydot"></i></th>
+        <td class="policeStart"><img src="assets\img\9443.png" class="imgSize" alt="">FC CHAMBLY
+            OISE</td>
+        <td class="bold">5</td>
+        <td>7</td>
+       
+        <td>-7</td>
+       
+    </tr>
+    <tr class="text-center lastColor">
+        <th scope="row">19 <i class="fa fa-circle greydot"></i></th>
+        <td class="policeStart"><img src="assets\img\17.png" class="imgSize" alt="">AC AJACCIO</td>
+        <td class="bold">4</td>
+        <td>7</td>
+       
+        <td>-8</td>
+        
+    </tr>
+    <tr class="text-center lastColor">
+        <th scope="row">20 <i class="fa fa-circle greydot"></i></th>
+        <td class="policeStart"><img src="assets\img\73.png" class="imgSize" alt="">PAU FOOTBALL
+            CLUB</td>
+        <td class="bold">3</td>
+        <td>7</td>
+       
+        <td>-7</td>
+        
+    </tr>
+</tbody>
+</table> */
